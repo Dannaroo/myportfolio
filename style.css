@@ -1,0 +1,185 @@
+/* =================================
+  Base Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Candara", sans-serif;
+  line-height: 1.6;
+  color: #3a3a3a;
+  margin: 0;
+}
+
+p {
+	font-size: .95em;
+	margin-bottom: 1em;
+  letter-spacing: .07em;
+}
+
+h2,
+h3,
+a {
+	color: white;
+
+}
+
+h2,
+h3 {
+	margin-top: 0;
+  margin-bottom: 5px;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+
+
+/* =================================
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.name {
+	font-size: 1.5em;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 110%;
+  text-shadow: 1px 1px 1px;
+  background: rgba(0, 0, 0, 0.5);
+
+}
+
+.main-nav li {
+	text-align: center;
+  border: white 5px solid;
+  letter-spacing: 150%;
+  list-style-type: none;
+  text-shadow: 1px 1px 1px;
+  margin: 6px auto;
+  width: 10em;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.name a,
+.main-nav a {
+	padding: 10px 15px;
+	text-align: center;
+	display: block;
+
+}
+
+  .name {
+    display: inline-block;
+    margin-right: -3.5px;
+    padding: 5px;
+  }
+
+	.main-nav a {
+		font-size: 1.2em;
+		color: white;
+		text-transform: uppercase;
+	}
+
+	.main-nav a:hover {
+		color: black;
+    background-color: white;
+    text-shadow: none;
+	}
+
+  ul {
+    padding: 0;
+  }
+
+  .face {
+    border-radius: 50%;
+    margin: auto;
+    width: 200px;
+    display: block;
+
+  }
+
+  /* ---- Layout Containers ---- */
+
+.container {
+  padding-left: .5em;
+	padding-right: .5em;
+}
+
+.main-header {
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	background: #000 url('img/background.jpg') no-repeat left;
+  background-size: 769px;
+	/* margin-bottom: 30px; */
+  text-align: center;
+
+
+}
+
+.main-footer {
+	text-align: center;
+	padding: 2em 0;
+	background: #d9e4ea;
+}
+
+/* ---- Main Content Styles ---- */
+
+.main-content {
+  padding: 10px;
+  /* margin: 30px 10px; */
+  background-color: grey;
+}
+
+  /* ---- Media Queries ---- */
+
+  @media (min-width: 768px) {
+      /* ---- Header Styles ---- */
+
+      .main-header {
+        background-size: 1528px;
+      }
+
+      .main-nav li {
+
+        display: inline-block;
+        margin: 0 10px;
+
+      }
+
+
+
+      header .face:hover,
+      .main-nav li:hover {
+        transform: scale(1.2) rotate(360deg);
+      }
+
+      /* ---- Main Content Styles ---- */
+
+      .main-content {
+        width: 80%;
+        max-width: 1100px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .col {
+        display: inline-block;
+        margin: .7em .7em;
+        width: 47%;
+        vertical-align: top;
+      }
+
+      .contact {
+        display: block;
+      }
+
+      .intro {
+
+      }
+  }
