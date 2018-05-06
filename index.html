@@ -15,33 +15,87 @@
           <h1 class="name">- Web Developer</h1>
           <nav>
             <ul class="main-nav">
-              <li><a href="#top">Profile</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="resume.html">Resume</a></li>
+              <li><a href="#profile">Profile</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#resume">Resume</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
         </div>
       </header>
       <main class="main-content">
-        <section class="intro col">
-          <h2>Introduction</h2>
-            <p>Welcome to my portfolio site. My name is Danny and I am a web developer based in Perth, Western Australia. On this site you will find all my projects and a link to my resume. If you would like me to develop a website for your business, please view the <a href="#ContactMe">Contact Me</a> section of this site.</p>
-        </section>
-        <section class="about col">
-          <h2>About Me</h2>
-            <p>I am a 28 year old guy who lives and works in the south eastern suburbs of Perth. I was born and raised in Perth. I enjoy playing video games and watching movies and tv. I am passionate about politics, both Australian and American. My favourite sports to watch are Formula One and tennis. The majority of my work experience has been in the field of transport. I am an aspiring web developer and I am studying the Front End Web Development Track at <a href="https://teamtreehouse.com/home">Team Treehouse</a>.</p>
-        </section>
-        <section class="contact col">
-          <h2>Contact Me</h2>
-            <p>Email: <a href="mailto:liege88@gmail.com" target="_blank">liege88@gmail.com</a></p>
-            <p>Twitter: <a href="https://twitter.com/Dannaroo" target="_blank">@Dannaroo</a></p>
-            <p>Instagram: <a href="https://www.instagram.com/dannaroo/" target="_blank">Dannaroo</a></p>
-        </section>
+        <div class="profile" id="profile">
+          <h1>My Profile</h1>
+          <section class="intro col">
+            <h2>Introduction</h2>
+              <p>Welcome to my portfolio site. My name is Danny and I am a web developer based in Perth, Western Australia. On this site you will find all my projects and a link to my resume. If you would like me to develop a website for your business, please view the <a href="#contact">Contact</a> section of this site.</p>
+          </section>
+          <section class="about col">
+            <h2>About Me</h2>
+              <p>I am a 28 year old guy who lives and works in the south eastern suburbs of Perth. I was born and raised in Perth. I enjoy playing video games and watching movies and tv. I am passionate about politics, both Australian and American. My favourite sports to watch are Formula One and tennis. The majority of my work experience has been in the field of transport. I am an aspiring web developer and I am studying the Front End Web Development Track at <a href="https://teamtreehouse.com/home">Team Treehouse</a>.</p>
+          </section>
+        </div>
+        <div class="projects" id="projects">
+          <h1>My Projects</h1>
+          <section class="col">
+            <h2><a href="../auspolassay/index.html" target="_blank">auspolASSAY</h2>
+              <img src="http://placeimg.com/320/280/tech" alt=""></a>
+              <p>Dedicated to the next Australian Federal Election. Built using my HTML and CSS skills.</p>
+          </section>
+          <section class="col">
+            <h2><a href="../cityquiz/index.html" target="_blank">Capital City Quiz</h2>
+              <img src="http://placeimg.com/320/280/tech" alt=""></a>
+              <p>Test your knowledge of capital cities around the world! Built using my JavaScript skills.</p>
+          </section>
+          <section class="col">
+            <h2><a href="../project/index.html" target="_blank">Experience VR & More</h2>
+              <img src="http://placeimg.com/320/280/tech" alt=""></a>
+              <p>Outlines the possibilities of VR. Built using my HTML and CSS skills.</p>
+          </section>
+          <section class="col">
+            <h2><a href="../tributepage/tributepage.html" target="_blank">Tribute Page</h2>
+              <img src="http://placeimg.com/320/280/tech" alt=""></a>
+              <p>A tribute page. Built using my HTML skills.</p>
+          </section>
+        </div>
+        <div class="resume" id="resume">
+          <h1>My Resume</h1>
+          <section class="col">
+            <h2><a href="#top">Resume</h2>
+              <img src="http://placeimg.com/320/280/tech" alt=""></a>
+              <p>Download my Resume.</p>
+          </section>
+          <div class="contact" id="contact">
+            <h1>Contact</h1>
+            <section class="col">
+              <h2>Links</h2>
+                <p><a href="mailto:liege88@gmail.com" target="_blank">Email</a></p>
+                <p><a href="https://twitter.com/Dannaroo" target="_blank">Twitter</a></p>
+                <p><a href="https://www.instagram.com/dannaroo/" target="_blank">Instagram</a></p>
+                <p><a href="https://github.com/Dannaroo" target="_blank">GitHub</a></p>
+            </section>
+            <section class="col">
+              <h2>Send Me A Message</h2>
+                <form>
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="user_name">
 
+                  <label for="mail">Email:</label>
+                  <input type="email" id="mail" name="user_email">
+
+                  <label for="message">Message:</label>
+                  <textarea rows="4" cols="50" id="message" name="user_message"></textarea>
+
+                  <button type="submit">Send Your Message</button>
+                </form>
+            </section>
+          </div>
+        </div>
       </main>
     </div>
     <footer class="main-footer">
-      <span><small>Written and coded by Danny Ward</small></span>
+      <span><small>Written and coded by Danny Ward</small></span><br>
+      <a href="#top">Back to top &raquo;</a>
     </footer>
   </body>
 
