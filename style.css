@@ -172,6 +172,11 @@ button:hover {
   border-color: white;
 }
 
+  /*Column Images */
+
+.col img {
+  width: 320px;
+}
 
 
   /* ---- Media Queries ---- */
@@ -220,4 +225,8 @@ button:hover {
       .intro {
 
       }
-  }
+      /*Column Images */
+
+    .col img {
+      width: 400px;
+    }
