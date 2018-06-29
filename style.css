@@ -178,6 +178,13 @@ button:hover {
   width: 320px;
 }
 
+  /*Send Me a Message */
+
+form input,
+form textarea {
+  border-radius: 5px 10px;
+  box-shadow: 2px 4px;
+}
 
   /* ---- Media Queries ---- */
 
@@ -229,4 +236,5 @@ button:hover {
 
     .col img {
       width: 400px;
+      max-height: 225px;
     }
