@@ -221,7 +221,6 @@ form textarea {
       .col {
         display: inline-block;
         margin: .7em .7em;
-        width: 47%;
         vertical-align: top;
       }
 
@@ -237,4 +236,10 @@ form textarea {
     .col img {
       width: 400px;
       max-height: 225px;
+    }
+  }
+  @media (min-width: 1200px) {
+
+    .col {
+      width: 47%;
     }
